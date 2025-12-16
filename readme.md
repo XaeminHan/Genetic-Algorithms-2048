@@ -26,6 +26,7 @@ python main.py show
 ## 저장한 모델 플레이 시켜보기 / Try playing the saved model
 
 python watch\_model.py \[모델 파일 경로 / The model's file path]
+
 ex) python watch\_model.py saved\_models\gen\_1\_score\_999\_123456789.npy
 
 
