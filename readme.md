@@ -44,3 +44,19 @@ python analyze\_model.py \[model file path] \[number of executions]
 ex) python analyze\_model.py saved\_models\gen\_1\_score\_999\_123456789.npy 1000
 -> Run "saved\_models\gen\_1\_score\_999\_123456789.npy" 1000 times and print the results.
 After printing, it is exported to a CSV file. (This feature was added to create visual aids for presentations.)
+
+
+## 예시 모델 분석 결과 / Results of analyzed_csv_example
+맷플롯립으로 시각화 / Visualized by Matplotlib
+
+1. 10000번 시뮬레이션 시의 점수 분포도 - 바이올린 플롯 / Score distribution map when simulate 10000 - Violin Plot
+<img width="1050" height="611" alt="image" src="https://github.com/user-attachments/assets/6603968d-db67-4927-8988-35bcfc8ac5a0" />
+
+
+2. 10000번 시뮬레이션 시의 점수 분포도 - 박스 플롯 (점은 이상치) / Score distribution map when simulate 10000 - Box Plot (dots are outlier)
+<img width="1016" height="599" alt="image" src="https://github.com/user-attachments/assets/07b4680a-e6fc-43cc-8ed1-0d1d6103736f" />
+
+
+
+3. 세대 별 평균 점수 / Average score by generation
+<img width="1022" height="593" alt="image" src="https://github.com/user-attachments/assets/7ebc451f-8c8e-4204-a496-12319f9997df" />
