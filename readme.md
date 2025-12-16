@@ -1,7 +1,6 @@
 ## requirements
 
 numpy >= 1.24
-
 pygame >= 2.1
 
 
@@ -27,7 +26,7 @@ python main.py show
 ## 저장한 모델 플레이 시켜보기 / Try playing the saved model
 
 python watch\_model.py \[모델 파일 경로 / The model's file path]
-ex) python watch\_model.py saved\_models\\gen\_1\_score\_5636\_1764325783.npy
+ex) python watch\_model.py saved\_models\gen\_1\_score\_999\_123456789.npy
 
 
 
@@ -41,10 +40,6 @@ ex) python analyze\_model.py saved\_models\\gen\_1\_score\_5636\_1764325783.npy 
 
 
 python analyze\_model.py \[model file path] \[number of executions]
-
-ex) python analyze\_model.py saved\_models\\gen\_1\_score\_5636\_1764325783.npy 1000
-
--> saved\_models\\gen\_1\_score\_5636\_1764325783.npy Runs the model 1000 times and prints the results.
-
+ex) python analyze\_model.py saved\_models\gen\_1\_score\_999\_123456789.npy 1000
+-> Run "saved\_models\gen\_1\_score\_999\_123456789.npy" 1000 times and print the results.
 After printing, it is exported to a CSV file. (This feature was added to create visual aids for presentations.)
-
