@@ -20,6 +20,9 @@ main.py 직전 경로까지 간 다음에 실행 / Go to the path immediately be
 ## 학습 실시간으로 보기 / View learning in real time
 
 python main.py show
+빨간색 선은 음수 가중치, 파란 색 선은 양수 가중치, 선의 두께는 가중치의 절댓값에 비례.
+노드 색은 흰색이면 죽은 노드. 초록색이면 활성화된 노드. 500번째 플레이어 시뮬레이션 끝나는 순간, 하나의 세대가 완성됨. / Red lines represent negative weights, blue lines represent positive weights, and line thickness is proportional to the absolute value of the weight.
+Node color: White indicates a dead node; green indicates an active node. A generation is completed when the 500th player simulation ends.
 
 
 
@@ -36,7 +39,7 @@ ex) python watch\_model.py saved\_models\gen\_1\_score\_999\_123456789.npy
 python analyze\_model.py \[모델 파일 경로] \[실행 횟수]
 ex) python analyze\_model.py saved\_models\\gen\_1\_score\_5636\_1764325783.npy 1000
 -> saved\_models\\gen\_1\_score\_5636\_1764325783.npy 모델을 1000 번 실행해보고 결과를 출력.
-출력이 끝나면 csv파일로 내보내짐 (이 기능은 발표용 시각자료 제작을 위해 추가됨.)
+출력이 끝나면 csv파일로 내보내짐. (이 기능은 발표용 시각자료 제작을 위해 추가됨.)
 
 
 
