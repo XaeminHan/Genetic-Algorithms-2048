@@ -20,6 +20,7 @@ main.py 직전 경로까지 간 다음에 실행 / Go to the path immediately be
 ## 학습 실시간으로 보기 / View learning in real time
 
 python main.py show
+
 빨간색 선은 음수 가중치, 파란 색 선은 양수 가중치, 선의 두께는 가중치의 절댓값에 비례.
 노드 색은 흰색이면 죽은 노드. 초록색이면 활성화된 노드. 500번째 플레이어 시뮬레이션 끝나는 순간, 하나의 세대가 완성됨. / Red lines represent negative weights, blue lines represent positive weights, and line thickness is proportional to the absolute value of the weight.
 Node color: White indicates a dead node; green indicates an active node. A generation is completed when the 500th player simulation ends.
